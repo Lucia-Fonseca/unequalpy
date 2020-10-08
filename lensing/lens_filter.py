@@ -7,6 +7,7 @@ import scipy.special as sc
 
 __all_=[
     'lensing_efficiency',
+    'parametric_lensing_efficiency',
     'lensing_efficiency_cmb',
     'redshift_distribution_galaxies',
     'filter_shear',
@@ -24,7 +25,46 @@ eta = np.array([1.235, 0.832, 0.551, 0.412]) * 0.7 / 1000
 alpha = 1.0 / (mu * eta - 1.0)
 beta = eta / (mu * eta -1.0)
 
-def lensing_efficiency(x, ibin):
+
+def lensing_efficiency(x, zx, nz):
+    """Lensing efficiency.
+    This function computes the general form of the lensing efficiency
+    function given in equation x in [1]_.
+
+    Parameters
+    ----------
+    x: (nx,) array_like
+        Array of comoving distances at which evaluate the lensing
+        efficiency function.
+    zx: array_like
+        Array of redshift as a function of comoving distance.
+    nz : (nx, ) array_like
+        Array of redshift distribution of galaxies.
+
+    Returns
+    -------
+    efficiency: (nx,) array_like
+        Array of lensing efficiency values.
+
+    Examples
+    --------
+    >>> import numpy as np
+    >>> from astropy.cosmology import FlatLambdaCDM
+    >>> cosmo = FlatLambdaCDM(H0=67.11, Ob0=0.049, Om0= 0.2685)
+    >>> z_list = np.linspace(0, 1100,num=1000000)
+    >>> xl = cosmo.comoving_distance(z_list).value
+    >>> qf = lensing_efficiency(xl, 1)
+
+    References
+    ----------
+    ..[1] arXiv:x.
+    """
+    TINY = np.finfo(0.).tiny
+
+    return np.trapz(np.clip(x - x[:,None], 0, None) / (x + TINY) * nz, zx)
+
+
+def parametric_lensing_efficiency(x, ibin):
     """Parametric lensing efficiency.
     This function computes the parametric form of the lensing efficiency
     function given in equation 6 in [1]_.
