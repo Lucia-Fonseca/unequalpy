@@ -12,12 +12,12 @@ to reproduce the analysis in [1]_:
 * Weak lensing functions: filters and lensing efficiency.
 * Tests using DES-Y1 data and cosmoSIS.
 
-The full list of features can be found in the `UnequalPy Documentation`_.
+The full list of features can be found in the `unequalPy Documentation`_.
 
 If you use UnequalPy for work or research presented in a publication please follow
 our `Citation Guidelines`_.
 
-.. _UnequalPy Documentation: https://unequalpy.readthedocs.io/en/latest/
+.. _unequalPy Documentation: https://unequalpy.readthedocs.io/en/latest/
 .. _Citation Guidelines: CITATION
 
 
