@@ -53,7 +53,7 @@ References
    :alt: DOI of Latest unequalPy Release
 
 .. |PyPI Status| image:: https://img.shields.io/pypi/v/unequalpy.svg
-    :target: https://pypi.python.org/pypi/unequalpy
+    :target: https://pypi.org/project/unequalpy/
     :alt: unequalPy's PyPI Status
 
 .. |Documentation Status| image:: https://readthedocs.org/projects/githubapps/badge/?version=latest
