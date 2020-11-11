@@ -25,3 +25,13 @@ The recommended BibTeX entry for the citation is:
 }
 
 and for the citation of the paper:
+
+
+@article{delabella_2020b,
+  author       = {Lucia F. de la Bella, Nicolas Tessore and Sarah Bridle},
+  title        = {The unequal-time matter power spectrum:
+    impact on weak lensing observables},
+  month        = Nov,
+  year         = 2020
+}
+
