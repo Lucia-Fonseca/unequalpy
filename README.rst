@@ -48,8 +48,8 @@ References
 .. [1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
 
 
-.. |Zenodo Badge| image:: https://zenodo.org/badge/221432358.svg
-   :target: https://zenodo.org/badge/latestdoi/221432358
+.. |Zenodo Badge| image:: https://zenodo.org/badge/269588448.svg
+   :target: https://zenodo.org/badge/latestdoi/269588448
    :alt: DOI of Latest unequalPy Release
 
 .. |PyPI Status| image:: https://img.shields.io/pypi/v/unequalpy.svg
