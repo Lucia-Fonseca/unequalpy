@@ -50,9 +50,9 @@ References
 .. [1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
 
 .. layout
-.. |Logo| image:: docs/_static/unequalpy_logo.png
+.. |Logo| image:: docs/_static/unequalpy_logo.svg
    :alt: Logo
-   :width: 5
+   :width: 500
 
 .. begin-badges
 
