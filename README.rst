@@ -52,7 +52,7 @@ References
 .. layout
 .. |Logo| image:: docs/_static/unequalpy_logo.svg
    :alt: Logo
-   :width: 500
+   :width: 300
 
 .. begin-badges
 
