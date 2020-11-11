@@ -25,7 +25,7 @@ def geometric_approx(power_spectrum):
 
     Parameters
     ----------
-    poewr_spectrum : (nz, k) array_like
+    power_spectrum : (nz, k) array_like
         Array of power spectra at different redshifts.
 
     Returns
@@ -41,7 +41,7 @@ def geometric_approx(power_spectrum):
     >>> import numpy as np
     >>> from astropy.cosmology import FlatLambdaCDM
     >>> from skypy.power_spectrum import growth_function
-    >>> from unequalpy.analysis import geometric_approx as Pgeom
+    >>> from unequalpy.approximation import geometric_approx as Pgeom
     >>> cosmo = FlatLambdaCDM(H0=67.11, Ob0=0.049, Om0= 0.2685)
 
     We use precomputed values from the FAST-PT code:
@@ -115,7 +115,7 @@ def midpoint_approx(wavenumber, growth1, growth2, powerk,
     >>> import numpy as np
     >>> from astropy.cosmology import FlatLambdaCDM
     >>> from skypy.power_spectrum import growth_function
-    >>> from unequalpy.analysis import midpoint_approx as Pmid
+    >>> from unequalpy.approximation import midpoint_approx as Pmid
     >>> cosmo = FlatLambdaCDM(H0=67.11, Ob0=0.049, Om0= 0.2685)
 
     We use precomputed values from the FAST-PT code:
