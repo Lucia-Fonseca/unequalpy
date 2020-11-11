@@ -1,5 +1,5 @@
 ===============================================================
-UnequalPy: A package for the unequal-time matter power spectrum
+unequalPy: A package for the unequal-time matter power spectrum
 ===============================================================
 
 |Zenodo Badge| |PyPI Status| |Documentation Status|
@@ -24,14 +24,14 @@ our `Citation Guidelines`_.
 Getting Started
 ---------------
 
-UnequalPy is distributed through PyPI_. To install UnequalPy and its
+unequalPy is distributed through PyPI_. To install UnequalPy and its
 dependencies_ using pip_:
 
 .. code:: bash
 
     $ pip install unequalpy
 
-The UnequalPy library can then be imported from python:
+The unequalPy library can then be imported from python:
 
 .. code:: python
 
@@ -50,12 +50,12 @@ References
 
 .. |Zenodo Badge| image:: https://zenodo.org/badge/221432358.svg
    :target: https://zenodo.org/badge/latestdoi/221432358
-   :alt: DOI of Latest UnequalPy Release
+   :alt: DOI of Latest unequalPy Release
 
 .. |PyPI Status| image:: https://img.shields.io/pypi/v/unequalpy.svg
-    :target: https://pypi.python.org/pypi/skypy
-    :alt: SkyPy's PyPI Status
+    :target: https://pypi.python.org/pypi/unequalpy
+    :alt: unequalPy's PyPI Status
 
 .. |Documentation Status| image:: https://readthedocs.org/projects/githubapps/badge/?version=latest
-    :target: https://skypy.readthedocs.io/en/latest/?badge=latest
+    :target: https://unequal.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
