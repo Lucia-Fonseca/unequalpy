@@ -1,0 +1,27 @@
+If you use unequalPy for work or research presented in a publication (whether
+directly, or as a dependency to another package) we recommend and encourage
+the following acknowledgment:
+
+  This research made use of unequalPy, a Python package for unequal-time
+  matter power spectrum (Lucia Fonseca de la Bella, 2020).
+
+where (Lucia Fonseca de la Bella, 2020) is a citation to this software DOI:
+
+  https://doi.org/10.5281/zenodo.4268314
+
+We also encourage you to cite the software DOI in the main text wherever
+appropriate.
+
+The recommended BibTeX entry for the citation is:
+
+@software{lucia_fonseca_de_la_bella_2020_4268314,
+  author       = {Lucia F. de la Bella},
+  title        = {unequalPy},
+  month        = Nov,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4268314},
+  url          = {https://doi.org/10.5281/zenodo.4268314}
+}
+
+and for the citation of the paper:
