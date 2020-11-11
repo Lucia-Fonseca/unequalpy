@@ -1,3 +1,5 @@
+|Logo|
+
 ===============================================================
 unequalPy: A package for the unequal-time matter power spectrum
 ===============================================================
@@ -47,6 +49,12 @@ References
 ----------
 .. [1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
 
+.. layout
+.. |Logo| image:: docs/_static/unequalpy_logo.png
+   :alt: Logo
+   :width: 5
+
+.. begin-badges
 
 .. |Zenodo Badge| image:: https://zenodo.org/badge/269588448.svg
    :target: https://zenodo.org/badge/latestdoi/269588448
