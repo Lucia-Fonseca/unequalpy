@@ -1,5 +1,5 @@
 
-Lucia F. De la Bella
+*Lucia F. de la Bella*
 
 ===============================================================
 unequalPy: A package for the unequal-time matter power spectrum
