@@ -2,7 +2,7 @@
    :alt: Logo
    :width: 360
 
-.. include:: ../../README.rst
+.. include:: ../README.rst
 
 
 Documentation
