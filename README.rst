@@ -65,5 +65,5 @@ References
     :alt: unequalPy's PyPI Status
 
 .. |Documentation Status| image:: https://readthedocs.org/projects/githubapps/badge/?version=latest
-    :target: https://unequal.readthedocs.io/en/latest/?badge=latest
+    :target: https://unequalpy.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
