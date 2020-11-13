@@ -3,7 +3,7 @@ This module computes different filters for the computation of the angular power
 spectrum for the lensing potential.
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.5'
 
 __author__ = 'Lucia F. de la Bella'
 __email__ = 'lucia.fonsecadelabella@manchester.ac.uk'
@@ -33,7 +33,7 @@ beta = eta / (mu * eta - 1.0)
 def lensing_efficiency(x, zx, nz):
     """Lensing efficiency.
     This function computes the general form of the lensing efficiency
-    function given in equation x in [1]_.
+    function given in [1]_.
 
     Parameters
     ----------
@@ -72,7 +72,7 @@ def lensing_efficiency(x, zx, nz):
 def lensing_efficiency_cmb(x, xs):
     """Parametric lensing efficiency cmb.
     This function computes the  cmb lensing efficiency
-    function given in equation x in [1]_.
+    function given in [1]_.
 
     Parameters
     ----------
