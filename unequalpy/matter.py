@@ -2,7 +2,7 @@
 This module computes different versions of the matter power spectrum.
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.5'
 
 __author__ = 'Lucia F. de la Bella'
 __email__ = 'lucia.fonsecadelabella@manchester.ac.uk'
@@ -180,7 +180,8 @@ def matter_unequal_time_power_spectrum(wavenumber, growth1, growth2, powerk,
 
     References
     ----------
-    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
+    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020,
+        arXiv 2011.06185.
     """
     p11, p22, p13 = powerk
 
