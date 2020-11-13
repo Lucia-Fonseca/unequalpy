@@ -3,7 +3,7 @@ This module prepares the power spectra for the lensing analysis,
 using different approximations to the unequal-time power spectrum.
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.5'
 
 __author__ = 'Lucia F. de la Bella'
 __email__ = 'lucia.fonsecadelabella@manchester.ac.uk'
@@ -72,7 +72,8 @@ def geometric_approx(power_spectrum):
 
     References
     ----------
-    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
+    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020,
+        arXiv 2011.06185.
     """
 
     return np.sqrt(power_spectrum[:, None] * power_spectrum[None, :])
@@ -141,7 +142,8 @@ def midpoint_approx(wavenumber, growth1, growth2, powerk,
 
     References
     ----------
-    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
+    ..[1] de la Bella, L. and Tessore, N. and Bridle, S., 2020,
+        arXiv 2011.06185.
     """
     p11, p22, p13 = powerk
 
