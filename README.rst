@@ -47,7 +47,9 @@ The unequalPy library can then be imported from python:
 
 References
 ----------
-.. [1] de la Bella, L. and Tessore, N. and Bridle, S., 2020.
+.. [1] de la Bella, L. and Tessore, N. and Bridle, S., 2020. Unequal-time matter power spectrum: impact on weak lensing observables. `arXiv 2011.06185`_.
+
+.. _arXiv 2011.06185: https://arxiv.org/abs/2011.06185
 
 .. layout
 .. |Logo| image:: docs/_static/unequalpy_logo.svg
