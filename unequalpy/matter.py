@@ -2,7 +2,7 @@
 This module computes different versions of the matter power spectrum.
 """
 
-__version__ = '0.1.5'
+__version__ = '0.1.6'
 
 __author__ = 'Lucia F. de la Bella'
 __email__ = 'lucia.fonsecadelabella@manchester.ac.uk'
