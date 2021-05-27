@@ -44,6 +44,7 @@ The unequalPy library can then be imported from python:
 .. _dependencies: setup.cfg
 .. _pip: https://pip.pypa.io/en/stable/
 
+**Examples:** you can run some examples provided in our `tests <https://github.com/Lucia-Fonseca/unequalpy/tree/master/tests>`_ and `analysis <https://github.com/Lucia-Fonseca/unequalpy/tree/master/analysis>`_ jupyter notebooks.
 
 References
 ----------
