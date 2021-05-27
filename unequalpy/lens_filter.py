@@ -3,7 +3,7 @@ This module computes different filters for the computation of the angular power
 spectrum for the lensing potential.
 """
 
-__version__ = '0.1.5'
+__version__ = '0.1.6'
 
 __author__ = 'Lucia F. de la Bella'
 __email__ = 'lucia.fonsecadelabella@manchester.ac.uk'
