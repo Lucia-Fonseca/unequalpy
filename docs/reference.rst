@@ -34,6 +34,8 @@ using different approximations to the unequal-time power spectrum.
 
 .. autofunction:: unequalpy.approximation.midpoint_approx
 
+.. autofunction:: unequalpy.approximation.growth_midpoint
+
 
 
 Lens filters
