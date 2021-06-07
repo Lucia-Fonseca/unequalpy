@@ -26,6 +26,7 @@ using different approximations to the unequal-time power spectrum.
 
 - :func:`~unequalpy.approximation.geometric_approx`
 - :func:`~unequalpy.approximation.midpoint_approx`
+- :func:`~unequalpy.approximation.growth_midpoint`
 
 ----
 
